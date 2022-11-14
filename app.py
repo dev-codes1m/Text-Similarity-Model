@@ -47,4 +47,4 @@ def text_similarity():
     return render_template('home.html',similarity = similarity)
 
 if __name__ =='__main__':
-    app.run(debug=True)
+    app.run(port=5000,debug=True)
