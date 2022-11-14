@@ -25,7 +25,6 @@ def text_cleaning(text):
     return "".join(stem_words)
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-import gensim
 vectorizer = TfidfVectorizer()
 def cosine_sim(text1, text2):
     tfidf = vectorizer.fit_transform([text1, text2])
