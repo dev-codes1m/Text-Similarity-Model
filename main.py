@@ -4,6 +4,7 @@ import os
 import nltk.corpus
 import re
 nltk.download('stopwords')
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from flask import Flask,redirect, url_for, request,render_template
 import nltk
